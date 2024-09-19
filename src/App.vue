@@ -8,7 +8,7 @@ import Content from './Content.vue'
       <Suspense>
         <Content />
         <template #fallback>
-          loading...
+          <div class="center">loading...</div>
         </template>
       </Suspense>
     </div>
@@ -27,5 +27,9 @@ main {
   width: 100%;
   max-width: 640px;
   padding: 2rem;
+}
+
+.center {
+  text-align: center;
 }
 </style>

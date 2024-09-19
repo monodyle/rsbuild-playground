@@ -82,6 +82,7 @@ The utility provides compile-time type checking:
 const invalid = pipe(
   "1",
   (a: string) => Number(a),
+  // @errors: 2345
   (b: number) => "b + 1", // Error: Type 'string' is not assignable to type 'number'
   (c: number) => `${c}`,
   (d: string) => Number(d)

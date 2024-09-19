@@ -1,8 +1,7 @@
 import { defineConfig } from '@rsbuild/core'
 import { pluginVue } from '@rsbuild/plugin-vue'
-import { pluginBabel } from "@rsbuild/plugin-babel";
-import { pluginVueJsx } from "@rsbuild/plugin-vue-jsx";
-
+import { pluginBabel } from '@rsbuild/plugin-babel'
+import { pluginVueJsx } from '@rsbuild/plugin-vue-jsx'
 
 export default defineConfig({
   plugins: [
@@ -13,7 +12,7 @@ export default defineConfig({
     pluginVueJsx(),
   ],
   html: {
-    title: 'Shiki',
+    title: 'Pipe',
     tags: [
       {
         tag: 'link',
