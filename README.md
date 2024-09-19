@@ -1,3 +1,1 @@
-# Example
-
-rsbuild example
+<samp>rsbuild example</samp>

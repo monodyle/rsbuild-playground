@@ -7,6 +7,9 @@ import Content from './Content.vue'
     <div class="container">
       <Suspense>
         <Content />
+        <template #fallback>
+          loading...
+        </template>
       </Suspense>
     </div>
   </main>
